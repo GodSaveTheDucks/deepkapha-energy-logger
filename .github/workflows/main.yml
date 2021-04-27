@@ -24,6 +24,6 @@ jobs:
         python -m pip install requests
         
     - name: Updating data
-      run: python update_data.py
+      run: python get_data.py
       
     - uses: stefanzweifel/git-auto-commit-action@v4 
